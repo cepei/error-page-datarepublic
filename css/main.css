@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,400,400i,900');
+.mensaje-dr{
+	margin-top: 10%;
+}
+h1{
+	color: #282c59;
+	font-family: 'BebasNeue';
+	font-weight: 400;
+	font-size: 40px;
+	text-align: center;
+}
+h2{
+	background-color: #23D2CD;
+	color: #fff;
+	font-family: 'Roboto';
+	font-size: 30px;
+	padding: 20px;
+	text-align: center;
+}
+.logo-datarepublica img{
+	text-align: center;
+}
+.dr-descripcion{
+	width: 80%;
+	margin:0 10%; 
+}
+@media only screen and (max-width: 768px){
+	.mensaje-dr{
+		margin-top: 20%;
+	}
+	h2{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 500px){
+	.mensaje-dr{
+		margin-top: 25%;
+	}
+	h2{
+		font-size: 25px;
+	}
+	.dr-descripcion{
+		width: 90%;
+		margin:0 5%; 
+	}
+}
